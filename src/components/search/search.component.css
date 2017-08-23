@@ -1,0 +1,8 @@
+.search-result a {
+	display: block;
+}
+
+.page {
+	background: transparent url('../../assets/graphics/sand.jpg') top center no-repeat;
+	background-size: cover;
+}

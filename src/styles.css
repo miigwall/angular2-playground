@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.page {
+	background: #eee;
+	min-height: 400px;
+}
+
+.page .page-content {
+	padding: 20px;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}

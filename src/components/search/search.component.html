@@ -1,1 +1,8 @@
-<h1>Search results for "{{ q }}"</h1>
+<div class="page">
+	<div class="page-content">
+		<h1>Search results for "{{ q }}"</h1>
+		<div *ngFor="let item of searchResults">
+			<div class="search-result" [innerHTML]="item.Result"></div>
+		</div>
+	</div>
+</div>

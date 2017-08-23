@@ -1,5 +1,9 @@
 .container .starter-template {
 	width: 100%;
 	max-width: 1200px;
-	margin: 80px auto 20px auto;
+	margin: 55px auto 20px auto;
+}
+
+.navbar-inverse .navbar-nav .nav-link.active {
+	text-decoration: underline;
 }

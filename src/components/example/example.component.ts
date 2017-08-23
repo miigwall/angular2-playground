@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { routerTransition } from '../../animations/router';
+import { hmTouchEvents } from 'angular-hammer';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  templateUrl: './example.component.html',
+  styleUrls: ['./example.component.css'],
   animations: [ routerTransition() ],
   host: { '[@routerTransition]': '' },
 })
-export class HomeComponent {
+export class ExampleComponent {
   title = 'app';
 }
