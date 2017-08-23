@@ -2,10 +2,15 @@
 .page {
 	background: #eee;
 	min-height: 400px;
+	position: fixed;
+	top: 55px;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .page .page-content {
-	padding: 20px;
+	padding: 50px 0 50px 0;
 	width: 100%;
 	max-width: 1000px;
 	margin: auto;
